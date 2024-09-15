@@ -17,7 +17,7 @@ dotenv.config();
 app.use(express.json()); // to parse the incoming requests with JSON payloads (from req.body)
 app.use(cookieParser());
 
-// app.get('/', (req,res) =>{
+// app.use('/', (req,res) =>{
 //     res.send('Hello World');
 // })
 
